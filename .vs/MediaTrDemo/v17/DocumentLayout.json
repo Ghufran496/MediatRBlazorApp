@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\Work\\ASP NET Course\\Practice\\MediaTrDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6069BE1C-5233-4827-8DE2-79867A0A4AC6}|BlazorUI\\BlazorUI.csproj|l:\\work\\asp net course\\practice\\mediatrdemo\\blazorui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6069BE1C-5233-4827-8DE2-79867A0A4AC6}|BlazorUI\\BlazorUI.csproj|solutionrelative:blazorui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "L:\\Work\\ASP NET Course\\Practice\\MediaTrDemo\\BlazorUI\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorUI\\Pages\\Index.razor",
+              "ToolTip": "L:\\Work\\ASP NET Course\\Practice\\MediaTrDemo\\BlazorUI\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorUI\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T20:07:57.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
