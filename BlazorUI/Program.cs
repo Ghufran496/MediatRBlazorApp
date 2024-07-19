@@ -1,4 +1,7 @@
 using BlazorUI.Data;
+using demoLibrary;
+using demoLibrary.DataAccess;
+using MediatR;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -8,8 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<IDataAccesss, DemoDataAccesss>();
 
-var app = builder.Build();
+//AS OUR Mediatr stuff was in demolibrary solution that why we have mentioned in here. if it was in Blazor UI then we just have to mention Startup/Program
+//builder.Services.AddMediatR(typeof(DemoDataAccesss).Assembly);
+
+//or create a new file in demolibaray solutoin like: DemoLibraryMediatREntryPoint
+builder.Services.AddMediatR(typeof(DemoLibraryMediatREntryPoint).Assembly);
+
+var app = builder.Build(); 
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
